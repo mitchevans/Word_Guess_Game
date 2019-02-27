@@ -17,7 +17,8 @@ function reset(){
     }
     document.getElementById("placeholder").textContent = wordHolder.join(" ");  
 }
-let words = ["dog", "apple"];
+let words = ["tyrannosaurus", "velociraptor", "pterodactyl",
+             "brachiosaurus", "stegosaurus", "triceratops" ];
 let guessesLeft = 10;
 let wins = 0;
 let losses = 0;
@@ -32,6 +33,7 @@ let wordArray = compChoice.split("");
 console.log(wordArray);
 
 document.getElementById("wins").textContent = wins;
+document.getElementById("losses").textContent = losses;
 document.getElementById("guessesLeft").textContent = guessesLeft;
 // Creating a placeholder spot on the page for the word indicating the length of the word
 // and to hold correct guesses.

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Tribeca;
+    src: url("./TribecaRegular.ttf");
+  }
+
+body {
+    background-image: url("../images/JP.jpg");
+    color: #d1c9be;
+    font-family: Tribeca;
+}
+
+#top {
+    height: 240px;
+}
+
+#mid {
+    height: 60px;
+}
+
+#bottom {
+    height: 30px;
+}
+

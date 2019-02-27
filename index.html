@@ -5,15 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <audio controls autoplay loop>
+            <source src="./assets/images/junglesounds.mp3" type="audio/ogg">     
+    </audio>
 </head>
 <body>
-    <H1>Word Guess Game!</H1>
-    <h2 id="placeholder"></h2>
-    <h2>Letters Guessed:<span id="guessedLetters"></span></h2>
-    <h2>Guesses Left:<span id="guessesLeft"></span></h2>
-    <h2>Wins:<span id="wins"></span></h2>
-    <h2>Losses:<span id="losses"></span></h2>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+    
+    <div class="container">
+
+        <div id="top"></div>
+
+        <section class="row">
+            <section class="col-md-12 text-center">
+                <H1>Word Guess</H1>
+            </section>
+        </section>
+
+        <div id="mid"></div>
+
+        <section class="row">
+            <section class="col-md-12 text-center">
+                <h2 id="placeholder"></h2>
+            </section>
+        </section>
+         
+        <div id="bottom"></div>
+       
+        <section class="row">
+
+            <div class="col-md-1"></div>
+
+            <section class="col-md-5">
+                <h2>Guesses: <span id="guessesLeft"></span></h2>
+                <h2>Wins: <span id="wins"></span></h2>
+                <h2>Losses: <span id="losses"></span></h2>
+            </section>
+           
+        <section class="col-md-6 text-left">
+            <h2>Letters Guessed: <span id="guessedLetters"></span></h2>
+
+    </div>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 </html>
