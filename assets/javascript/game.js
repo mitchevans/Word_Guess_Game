@@ -19,7 +19,8 @@ function reset() {
     document.getElementById("placeholder").textContent = wordHolder.join(" ");
 }
 let words = ["tyrannosaurus", "velociraptor", "pterodactyl",
-    "brachiosaurus", "stegosaurus", "triceratops"];
+    "brachiosaurus", "stegosaurus", "triceratops", "dilophosaurus",
+     "gallimimus", "spinosaurus", "compsognathus"];
 let guessesLeft = 15;
 let wins = 0;
 let losses = 0;
